@@ -1,5 +1,9 @@
 # Smart lock door measurement checklist｜智能門鎖門身量度清單
 
+由 [Elechid 音立](https://elechid.com/) 製作及維護。
+
+Created and maintained by [Elechid 音立](https://elechid.com/en/).
+
 [English](https://elechid.github.io/smart-lock-measurement-checklist/) · [繁體中文](https://elechid.github.io/smart-lock-measurement-checklist/?lang=zh)
 
 Fill the measurements you have and copy the checklist. Blank fields are marked “Not measured”. Add photos of both door faces, the door edge and the frame at lock height.
