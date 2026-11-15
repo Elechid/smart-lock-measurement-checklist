@@ -1,1 +1,1 @@
-export function lock(...measurements) { return measurements; }
+export function lock(...values) { return values; }

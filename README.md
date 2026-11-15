@@ -2,12 +2,10 @@
 
 [English](https://elechid.github.io/smart-lock-measurement-checklist/) · [繁體中文](https://elechid.github.io/smart-lock-measurement-checklist/?lang=zh)
 
-Record measured door thickness, lock dimensions, opening direction and hinge side for the installer.
+Fill the measurements you have and copy the checklist. Blank fields are marked “Not measured”. Add photos of both door faces, the door edge and the frame at lock height.
 
-記下實際門厚、鎖體尺寸、開門方向及鉸鏈位置，交給安裝師傅。
+填已量的數字，再複製清單。空白項會標為「未量」。請附上門內、門外、門邊及鎖位高度的門框相片。
 
-Designed for initial planning. Follow the limitations shown beside the results. All calculations run in the browser.
-
-由 [Elechid 音立](https://elechid.com/) 維護。結果供初步規劃，請留意工具內的限制。
+[English guide](https://elechid.com/en/blogs/news/smart-door-lock-hong-kong-guide) · [繁中指南](https://elechid.com/blogs/news/smart-door-lock-hong-kong-guide)
 
 Run locally with `python3 -m http.server`. [MIT licence](LICENSE).

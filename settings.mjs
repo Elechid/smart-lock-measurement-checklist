@@ -3,18 +3,11 @@ import { lock } from './tools.mjs';
 export const tools = {
   lock: {
     title: ['Smart lock door measurement checklist','智能門鎖門身量度清單'],
-    fields: [
-      ['Door thickness (mm)','門厚（毫米）',45,1],
-      ['Backset from edge to spindle centre (mm)','門邊至手柄軸中心（毫米）',60,1],
-      ['Handle-to-cylinder centre spacing (mm)','手柄軸至鎖膽中心（毫米）',72,1],
-      ['Existing faceplate width (mm)','現有鎖體面板闊（毫米）',30,1],
-      ['Existing faceplate length (mm)','現有鎖體面板長（毫米）',120,1],
-      ['Frame clearance at lock (mm)','鎖位門框空間（毫米）',22,0],
-      ['Door-to-frame gap (mm)','門扇與門框縫隙（毫米）',3,0],
-      ['Opening direction and hinge side, viewed from outside','從門外看開門方向及鉸鏈位置',''],
-    ],
+    fields: [["Door thickness across the slab faces (mm)", "量門扇內外兩面之間的厚度（毫米）", null, 1], ["Backset from door edge to handle spindle centre (mm)", "由門邊量至手柄軸中心（毫米）", null, 1], ["Handle spindle to cylinder centre (mm)", "量手柄軸中心至鎖膽中心（毫米）", null, 1], ["Visible faceplate width on door edge (mm)", "量門邊鎖體面板闊度（毫米）", null, 1], ["Visible faceplate length on door edge (mm)", "量門邊鎖體面板長度（毫米）", null, 1], ["Clear frame space at lock height (mm)", "在鎖位高度量門框可用空間（毫米）", null, 0], ["Door-to-frame gap with door closed (mm)", "關門後量門扇至門框縫隙（毫米）", null, 0], ["Viewed from outside: opens in or out, hinges left or right", "從門外看：向內或向外開、鉸鏈在左或右", ""]],
     labels: [],
+    guide: "smart-door-lock-hong-kong-guide",
+    intro: ["Fill the measurements you have and copy the checklist. Blank fields are marked “Not measured”. Add photos of both door faces, the door edge and the frame at lock height.", "填已量的數字，再複製清單。空白項會標為「未量」。請附上門內、門外、門邊及鎖位高度的門框相片。"],
     calculate: lock,
-    note: ['Replace every example value with your actual measurement. Send the list and photos of both door faces and the door edge to the installer. They should confirm fit, lock body and installation requirements before purchase.', '請把每個示例值換成實際量度值，連同門內、門外及門邊相片交給安裝師傅。買之前由師傅確認兼容性、鎖體和安裝要求。'],
+    note: ["Ask the installer to confirm lock compatibility and installation before ordering.", "落單前請由安裝師傅確認鎖體兼容及安裝要求。"],
   },
 };
